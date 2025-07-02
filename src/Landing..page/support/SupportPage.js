@@ -1,12 +1,15 @@
 import React from 'react'
+import Hero from './Hero'
+import CreateTicket from './CreateTicket'
 import Navbar from '../Navbar'
 import Footer from '../Footer'
 
-export default function Signup() {
+export default function SupportPage() {
   return (
     <div>
       <Navbar/>
-      <h1>Signup</h1>
+      <Hero/>
+      <CreateTicket/>
       <Footer/>
     </div>
   )
